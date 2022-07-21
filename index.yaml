@@ -3,12 +3,26 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-21T17:58:23.618996+10:00"
+    created: "2022-07-21T18:58:01.427374+10:00"
     description: A Helm chart for Kubernetes
     digest: d2ddd0c016f517dc25a7e43ea12d3e74c1d5c994eec19196694afd170efae731
     name: helm-chart-test
     type: application
     urls:
-    - https://github.com/jaigaurav/helm-charts/helm-chart-test-0.1.0.tgz
+    - https://jaigaurav.github.io/helm-charts/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-21T17:58:23.617554+10:00"
+  starburst-enterprise:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-07-21T18:58:01.429089+10:00"
+    dependencies:
+    - name: starburst-charts-common
+      repository: https://github.service.anz/prex/service-starburst/starburst-charts-common/helm
+      version: 380.0.0
+    description: A Helm chart for Starburst Enterprise
+    digest: cf1f6d14814fc4371fa9ae6565d1a92f725a8fbbdfe2dbc98ad679dbc072915f
+    name: starburst-enterprise
+    urls:
+    - https://jaigaurav.github.io/helm-charts/starburst-enterprise-380.0.0.tgz
+    version: 380.0.0
+generated: "2022-07-21T18:58:01.426413+10:00"
